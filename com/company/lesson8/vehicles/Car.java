@@ -74,7 +74,7 @@ public class Car {
     }
 
     public void printInfo() {
-        System.out.println("Driver: " + driver.getFullName() + ",Age" + driver.getAge() + ",Exp " + driver.getExperience());
+        System.out.println("Driver: " + driver.getFullName() + ",Age: " + driver.getAge() + ",Exp: " + driver.getExperience());
         System.out.println("Car Class: " + carClass);
         System.out.println("Brand: " + brand);
         System.out.println("Engine: " + engine.getEngPow() + ", " + engine.getCompany());

@@ -18,4 +18,9 @@ public class SportCar extends Car {
     public void setTopSpeed(String speed) {
         this.topSpeed = speed;
     }
+
+    public void printInfo(){
+        super.printInfo();
+        System.out.println("Top Speed: " + topSpeed);
+    }
 }

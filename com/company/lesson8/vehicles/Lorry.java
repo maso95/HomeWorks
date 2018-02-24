@@ -18,4 +18,9 @@ public class Lorry extends Car {
     public void setCarrying(String carrying) {
         this.carrying = carrying;
     }
+
+    public void printInfo() {
+        super.printInfo();
+        System.out.println("Carrying: " + carrying);
+    }
 }
