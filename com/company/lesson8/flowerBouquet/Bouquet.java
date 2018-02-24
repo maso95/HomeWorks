@@ -23,6 +23,5 @@ public class Bouquet {
         Flower.setCount(bouquet1.length + bouquet2.length + bouquet3.length);
 
         System.out.println("Продано цвето: " + Flower.getCount());
-
     }
 }
