@@ -7,11 +7,6 @@ public class Book {
         this.name = name;
         this.writer = writer;
     }
-
-    Book() {
-
-    }
-
     public String getName() {
         return name;
     }

@@ -6,12 +6,12 @@ public class MatrixCore {
     int str, col;
     int[][] array = new int[str][col];
 
-
     MatrixCore(int[][]array) {
         this.array = array;
         this.str = array.length;
         this.col = array[0].length;
     }
+
     MatrixCore plus(MatrixCore m) {
         int[][] array =  new int[str][col];
         for (int i = 0; i < m.array.length; i++) {
@@ -23,6 +23,7 @@ public class MatrixCore {
         System.out.println(Arrays.deepToString(array));
         return s;
     }
+
     MatrixCore multiple(int num) {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {

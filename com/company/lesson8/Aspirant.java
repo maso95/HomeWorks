@@ -1,8 +1,5 @@
 package com.company.lesson8;
 
-/**
- * Created by Student on 23.02.2018.
- */
 public class Aspirant extends Student {
     private String phWork;
 

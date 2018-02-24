@@ -1,7 +1,7 @@
 package com.company.lesson8;
 
 public class Student {
-    private String firstName,lastName,group;
+    private String firstName, lastName, group;
     private double avgMark;
 
     public Student(String firstName, String lastName, String group, double avgMark) {
