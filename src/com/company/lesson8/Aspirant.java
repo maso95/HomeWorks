@@ -15,4 +15,12 @@ public class Aspirant extends Student {
     public void setPhWork(String phWork) {
         this.phWork = phWork;
     }
+
+    public double getShcolarship(){
+        if(getAvgMark()==5){
+            return 200 ;
+        }else{
+            return  180;
+        }
+    }
 }

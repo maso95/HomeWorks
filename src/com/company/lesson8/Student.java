@@ -42,4 +42,13 @@ public class Student {
     public void setAvgMark(double avgMark) {
         this.avgMark = avgMark;
     }
+
+    public double getShcolarship() {
+        if (avgMark == 5.0) {
+            return 100;
+        } else {
+            return 80;
+        }
+    }
+
 }
