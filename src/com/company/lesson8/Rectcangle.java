@@ -3,7 +3,7 @@ package com.company.lesson8;
 /**
  * Created by Student on 26.02.2018.
  */
-public  class  Rectcangle extends Shape {
+public abstract class Rectcangle extends Shape {
     private double s,d;
 
     public double getS() {
@@ -27,9 +27,5 @@ public  class  Rectcangle extends Shape {
         this.s = s;
         this.d = d;
 
-    }
-
-    public void draw() {
-        System.out.println("Рисую Прямоугольник "+ getColor()+ " Цвета" );
     }
 }
