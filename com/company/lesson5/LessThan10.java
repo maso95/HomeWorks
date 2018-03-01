@@ -10,7 +10,11 @@ public class LessThan10 {
             int x = sc.nextInt();
             if (x > 0 && x < 10) {
                 System.out.println("Число " + x + " положительное и меньше 10");
-            } else System.out.println("Число " + x + " положительное больше или равно 10 или отрицательное ");
-        } else System.out.println("Вы ввели не целое число");
+            } else {
+                System.out.println("Число " + x + " положительное больше или равно 10 или отрицательное ");
+            }
+        } else {
+            System.out.println("Вы ввели не целое число");
+        }
     }
 }
