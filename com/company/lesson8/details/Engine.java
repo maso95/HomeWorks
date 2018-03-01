@@ -1,19 +1,19 @@
 package com.company.lesson8.details;
 
 public class Engine {
-    private String EngPow, company;
+    private String engPow, company;
 
     public Engine(String engPow, String company) {
-        EngPow = engPow;
+        this.engPow = engPow;
         this.company = company;
     }
 
     public String getEngPow() {
-        return EngPow;
+        return engPow;
     }
 
     public void setEngPow(String engPow) {
-        EngPow = engPow;
+        this.engPow = engPow;
     }
 
     public String getCompany() {
