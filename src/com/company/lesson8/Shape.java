@@ -14,7 +14,29 @@ public abstract class Shape {
     public void setColor(String color) {
         this.color = color;
     }
-    public abstract void draw(String color
 
-    );
+    public abstract void draw(String color);
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Shape)) return false;
+
+        Shape shape = (Shape) o;
+
+        return getColor() != null ? getColor().equals(shape.getColor()) : shape.getColor() == null;
+
+    }
+
+    @Override
+    public int hashCode() {
+        return getColor() != null ? getColor().hashCode() : 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "color='" + color + '\'' +
+                '}';
+    }
 }
