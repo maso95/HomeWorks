@@ -10,6 +10,11 @@ public class Price {
         Pear p = new Pear(4.2,"yellow");
         Apricot apr = new Apricot(10.5,"orange");
 
+        System.out.println("Full price: "+(a1.price(a1)+a2.price(a2)+p.price(p)+apr.price(apr)));
+        System.out.println("Apple price: "+(a1.price(a1)+a2.price(a2)));
+        System.out.println("Pear price: "+p.price(p));
+        System.out.println("Apricot price: "+apr.price(apr) );
+
 
 
 

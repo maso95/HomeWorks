@@ -15,6 +15,15 @@ public class Book implements Printable  {
         this.name = name;
     }
 
+    public static void printBook(Printable[]printables){
+        for (Printable p:printables) {
+            if (p instanceof Book){
+                System.out.println(((Book) p).getName());
+            }
+        }
+
+    }
+
     @Override
     public void print() {
         System.out.println("Печатаю книгу " +getName());

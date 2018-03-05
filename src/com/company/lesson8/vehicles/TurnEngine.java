@@ -3,8 +3,6 @@ package com.company.lesson8.vehicles;
 import com.company.lesson8.details.Engine;
 import com.company.lesson8.professions.Driver;
 
-import java.util.Arrays;
-
 public class TurnEngine {
     public static void main(String[] args) {
         Driver rm = new Driver("34", "Robert McKenzi", "10");

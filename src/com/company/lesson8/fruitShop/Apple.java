@@ -11,10 +11,10 @@ public class Apple extends Fruit {
 
     @Override
     public Double price(Fruit o) {
-        if(o.getWeight() < 5){
-            return 60.30;
-        }else {
-            return 120.60;
-        }
+            if(o.getWeight() < 5){
+                return 60.30;
+            }else {
+                return 120.60;
+            }
     }
 }

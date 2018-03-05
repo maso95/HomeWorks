@@ -4,7 +4,7 @@ package com.company.lesson8.print;
  * Created by Student on 02.03.2018.
  */
 public class Magazine implements Printable {
-    private  String name;
+    private String name;
 
     public Magazine(String name) {
         this.name = name;
@@ -18,9 +18,16 @@ public class Magazine implements Printable {
         this.name = name;
     }
 
+    public static void printMagazines(Printable[] printables) {
+        for (Printable p : printables)
+            if (p instanceof Magazine) {
+                System.out.println(((Magazine) p).getName());
+            }
+    }
+
     @Override
     public void print() {
-        System.out.println("Печатаю журнал " +getName());
+        System.out.println("Печатаю журнал " + getName());
     }
 
     @Override
@@ -31,7 +38,6 @@ public class Magazine implements Printable {
         Magazine magazine = (Magazine) o;
 
         return getName() != null ? getName().equals(magazine.getName()) : magazine.getName() == null;
-
     }
 
     @Override
