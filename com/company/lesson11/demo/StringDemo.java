@@ -1,8 +1,5 @@
-package com.company.lesson10;
+package com.company.lesson11.demo;
 
-/**
- * Created by Student on 12.03.2018.
- */
 public class StringDemo {
     public static void main(String[] args) {
         verString("i like JAVA!!!");
